@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart – MauBazar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Checkout</h1>
+  <form id="orderForm">
+    <input type="number" id="productId" placeholder="Product ID" required><br>
+    <input type="text" id="buyerName" placeholder="Your Name" required><br>
+    <input type="text" id="address" placeholder="Address" required><br>
+    <select id="paymentMethod">
+      <option value="Juice">Juice</option>
+      <option value="Cash on Delivery">Cash on Delivery</option>
+    </select><br>
+    <button type="submit">Place Order</button>
+  </form>
+  <p id="orderMessage"></p>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
