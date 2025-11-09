@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sell on MauBazar</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>List a New Product
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="product.html">Products</a>
+      <a href="seller.html">Sell</a>
+      <a href="cart.html">Cart</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </h1>
+  <form id="sellerForm">
+    <input type="text" id="name" placeholder="Product name" required><br>
+    <input type="number" id="price" placeholder="Price (Rs)" required><br>
+    <textarea id="description" placeholder="Description"></textarea><br>
+    <input type="text" id="seller" placeholder="Seller name" required><br>
+    <button type="submit">Add Product</button>
+  </form>
+  <p id="message"></p>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
